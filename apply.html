@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+    <section id="first" class="d-flex align-items-center">
+        <img src="imgs/telos.png" alt="">
+        <div class="">
+            <h2 class="mb-1">Telos Data Academy</h2>
+            <p>SDET (QA Automation Tester) Bootcamp</p>
+        </div>
+        
+    </section>
+
+    <section id="second">
+        <div class="pt-4 pt-sm-5 pb-5">
+            <div class="card shadow">
+              
+                <div class="header p-4 p-sm-5">
+
+                    <div class="apply">
+                        <h2 class="mb-3">Apply Form</h2>
+                        
+                        <p>Please fill up the form to apply for the program</p>
+                        <img src="icons/enrollment.png" alt="">
+                    </div>
+                    
+                    <div class="schedule">
+                        <p class="bold">Bootcamp Schedule (Central Time Zone):</p>
+                        <p class="my-3"><em>6 months 6 days/week program</em></p>
+                        <p>Mon - Fri: 6pm - 9pm;</p>
+                        <p>Saturday: 9am-12pm</p>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="https://formspree.io/mdowzrej" method="post">
+                        <h5 class="mb-4">Applicant's Information</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="flex-fill">
+                                <label>First Name<input type="text" name="First Name" class="text" id="firstname" /></label>
+                            </div>
+                            <div class="flex-fill ml-1">
+                                <label>Last Name<input type="text" name="Last Name" class="text" id="lastname" /></label>
+                            </div>
+                        </div>
+                        
+                        <label>Email Address<input type="email" name="Email" class="text" id="email" /></label>
+                        <label>Phone Number<input type="tel" name="Phone" class="text" id="name" /></label>
+                        <fieldset>
+                            <p>Are you Authorized to work in US?</p>
+                            <div class="d-flex align-items-center radio">
+                                <input type="radio" name="Work Authorization" id="Yes" value="Yes"><label for="Yes">Yes</label>
+                                <input type="radio" name="Work Authorization" id="No" value="No"><label for="No">No</label>
+                            </div>
+                                
+                        </fieldset>
+                        
+                        <fieldset>
+                            <p>What program are you applying for?</p>
+                            <div class="d-flex align-items-center radio">
+                                <input type="radio" name="Program" id="Onsite" value="Onsite"><label for="Onsite">ONSITE Program Bootcamp</label>
+                                <input type="radio" name="Program" id="Online" value="Online"><label for="Online" class="mr-0">ONLINE Program Bootcamp</label>
+                            </div>
+                                
+                        </fieldset>
+                        
+
+                        <label class="mt-4">Message (optional):<textarea name="Message" rows="5" id="message" class="text"></textarea></label> 
+                        
+                        <h5 class="mb-4 mt-5">Emergency Contact Information</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="flex-fill">
+                                <label>Name<input type="text" name="Emergency Name" class="text" id="emergencyname" /></label>
+                            </div>
+                            <div class="flex-fill ml-1">
+                                <label>Phone Number<input type="tel" name="Emergency Phone" class="text" id="emergencyphone" /></label>
+                            </div>
+                        </div>
+                        
+                        <input class="btn btn-primary mt-4" type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
