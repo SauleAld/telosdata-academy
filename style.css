@@ -313,7 +313,18 @@ footer iframe {
 footer .footnote {
     font-size: .8rem;
 }
-
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-link {
+        padding: .8rem 1rem;
+    }
+    .dropdown-menu {
+        margin: 0;
+    }
+}
 @media (min-width: 1400px) {
     section {
         margin-bottom: 5rem;

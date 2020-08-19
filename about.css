@@ -20,6 +20,7 @@ h4 {
 .navbar-brand {
     font-size: 1rem;
 }
+
 .navbar-brand img {
     width: 90px;
 }
@@ -38,7 +39,9 @@ h4 {
     background-color: rgba(0, 0, 26, .95);
     transition: background 250ms;
 }
-
+.collapse-menu, .navbar-nav {
+    height: 100%;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -114,6 +117,20 @@ footer .footnote {
     width: 30px;
     margin-left: 10px;
 }
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-link {
+        padding: .8rem 1rem;
+    }
+    .dropdown-menu {
+        margin: 0;
+    }
+}
+
 @media (min-width: 1400px) {
     #menu .container-fluid {
         padding-right: 5rem;
