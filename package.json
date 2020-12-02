@@ -1,0 +1,29 @@
+{
+  "name": "telosdata-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "about.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauleAld/telosdata-academy.git"
+  },
+  "author": "Saule Ald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauleAld/telosdata-academy/issues"
+  },
+  "homepage": "https://github.com/SauleAld/telosdata-academy#readme",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+}
